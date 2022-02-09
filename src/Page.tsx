@@ -47,7 +47,7 @@ const Page: FC<ComponentProps> = ({ title }) => {
       <Box className={classes.box}></Box>
       <Box>
         <Button variant="contained" color="secondary" onClick={handleClick}>
-          Click to change box color
+          change background color
         </Button>
       </Box>
     </Box>
