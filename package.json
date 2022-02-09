@@ -1,7 +1,7 @@
 {
   "name": "demomatapp",
   "version": "0.1.0",
-  "homepage": "https://amitdvs.github.io/",
+  "homepage": "https://amitdvs.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -25,7 +25,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build:deploy": "gh-pages -b build -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
